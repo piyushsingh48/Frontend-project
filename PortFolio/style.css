@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#first{
+    float: left;
+    border: 1px solid rgb(166, 191, 197) ;
+    width: 25%;
+    height: 700px;
+    background-color:rgb(196, 208, 212);
+}
+#second{
+    float: left;
+    border: 1px solid white;
+    width: 74%;
+    height: 700px;
+   background-image: url("media/image/selfimg.jpg");
+   background-repeat: no-repeat;
+}
+#container{
+    width: 100%;
+    margin: auto;
+    height: 700px;
+}
+#box{
+    
+    border: 2px solid red;
+    border-radius: 70%;
+    
+}
+.logo img{
+       height: 120px;
+       width: 120px;
+       border-radius:70%;
+       margin-top: 50px;
+     margin-left: 130px;
+}
+h2{
+    text-align: center;
+    padding: 10px; 
+}
+.e{
+    
+    text-align: center;
+}
+.icon img{
+    padding-top: 10px;
+    width: 30px;
+    display: flex;
+    margin: auto;
+   
+}
+
+.e a{
+    text-decoration: none;
+    font-weight: bold ;
+    color: black;
+}
+.e a:hover{
+    
+    color: blue;
+}
+.text {
+    color: orangered;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+    margin-top: 350px;
+    text-shadow: 3px 3px 3px wheat;
+}
+.text button{
+    background-color: orangered;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.text button:hover{
+    background-color: aqua;
+
+}
+
